@@ -1,0 +1,56 @@
+body{
+}
+
+header{
+	background: lightgrey;
+}
+
+footer{
+	background: lightgrey;
+}
+
+.buttoncurrentpage {
+  background-color: #3C82F5; /* blue */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.buttoncurrentpage1 {
+  background-color: #3C82F5; /* blue */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+/*Esto es de fotos*/
+
+.gallery-container {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.gallery-row {
+    display: flex;
+    min-height: 300px;
+    max-height: 500px;
+}
+.gallery-img {
+    position: relative;
+    flex-grow: 1;
+    max-width: 33.3%;
+}
+.gallery-img img {
+    height: 100%;
+}
